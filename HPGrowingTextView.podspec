@@ -5,7 +5,6 @@ Pod::Spec.new do |s|
   s.description  = "An UITextView which grows/shrinks with the text and starts scrolling when the content reaches a certain number of lines."
   s.homepage     = "https://github.com/HansPinckaers/GrowingTextView"
   s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
-  s.author       = { "Hans Pinckaers" => "hans.pinckaers@gmail.com" }
   s.source       = { :git => "https://github.com/immoose/GrowingTextView.git", :tag => s.version.to_s }
   s.platform     = :ios
   s.source_files = 'Classes', 'class/**/*.{h,m}'
